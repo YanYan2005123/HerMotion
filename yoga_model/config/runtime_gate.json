@@ -1,0 +1,22 @@
+{
+  "release_scope": "research_noncommercial",
+  "confidence_threshold": 0.65,
+  "margin_threshold": 0.15,
+  "temporal": {
+    "window": 5,
+    "required_matches": 3
+  },
+  "class_to_pose": {
+    "Warrior_II_Pose_or_Virabhadrasana_II_": "yoga_warrior_two",
+    "Tree_Pose_or_Vrksasana_": "yoga_tree_supported",
+    "Low_Lunge_pose_or_Anjaneyasana_": "yoga_low_lunge_supported",
+    "Cat_Cow_Pose_or_Marjaryasana_": "yoga_cat_cow",
+    "Child_Pose_or_Balasana_": "yoga_child_pose_supported",
+    "Bridge_Pose_or_Setu_Bandha_Sarvangasana_": "yoga_bridge"
+  },
+  "unsupported_classifier_targets": {
+    "yoga_mountain": "Yoga-82 has no Mountain Pose class",
+    "pilates_any": "Yoga-82 cannot validate Pilates",
+    "postpartum_any": "Yoga-82 cannot validate postpartum rehabilitation"
+  }
+}
