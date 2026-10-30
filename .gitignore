@@ -1,0 +1,11 @@
+node_modules/
+.venv-runtime/
+.runtime/
+output/
+__pycache__/
+*.pyc
+*.tsbuildinfo
+.env
+.env.local
+.env.*.local
+.DS_Store
